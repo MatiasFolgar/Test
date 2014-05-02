@@ -20,5 +20,9 @@ namespace Test
         {
             MessageBox.Show(ClaseTest.sayHI());
         }
+        private void btnTest_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("HOLA MUNDO");
+        }
     }
 }

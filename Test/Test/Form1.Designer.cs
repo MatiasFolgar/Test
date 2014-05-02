@@ -41,6 +41,7 @@
             this.btnTest.TabIndex = 0;
             this.btnTest.Text = "Boton";
             this.btnTest.UseVisualStyleBackColor = true;
+            this.btnTest.Click += new System.EventHandler(this.btnTest_Click);
             // 
             // label1
             // 
