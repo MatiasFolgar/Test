@@ -16,14 +16,10 @@ namespace Test
             InitializeComponent();
         }
 
-        private void metodoDummy()
-        {
-            // no hacer nada...
-        }
-
         private void button1_Click(object sender, EventArgs e)
         {
             MessageBox.Show(ClaseTest.sayHI());
+            Abajo();
         }
         private void btnTest_Click(object sender, EventArgs e)
         {
