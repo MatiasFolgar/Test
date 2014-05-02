@@ -29,5 +29,7 @@ namespace Test
         {
             MessageBox.Show("HOLA MUNDO");
         }
+
+        private void Abajo() { MessageBox.Show("Un mensaje"); }
     }
 }
