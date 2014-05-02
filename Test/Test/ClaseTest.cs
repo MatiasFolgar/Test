@@ -5,8 +5,8 @@ using System.Text;
 
 namespace Test
 {
-    class ClaseTest
+    static class ClaseTest
     {
-        internal string sayHI() { return "Hi!"; }
+        static internal string sayHI() { return "Hi!"; }
     }
 }
